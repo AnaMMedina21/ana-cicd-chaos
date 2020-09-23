@@ -29,7 +29,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: cicd-chaos-external
+  name: ${CHAOS_ID}-cicd-chaos-external
 spec:
   type: LoadBalancer
   selector:
